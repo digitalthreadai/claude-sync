@@ -37,7 +37,9 @@ skills/*/.venv/
 skills/*/dist/
 skills/*/__pycache__/
 
-# ── Custom plugins (private) ───────────────────────────────
+# ── Machine-specific overrides (not for sharing) ───────────
+settings.local.json
+launch.json
 my-plugins/
 
 # ── OS / editor ────────────────────────────────────────────
