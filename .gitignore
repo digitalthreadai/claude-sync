@@ -38,6 +38,9 @@ skills/*/.venv/
 skills/*/dist/
 skills/*/__pycache__/
 
+# ── Custom plugins (private) ───────────────────────────────
+my-plugins/
+
 # ── OS / editor ────────────────────────────────────────────
 .DS_Store
 Thumbs.db
