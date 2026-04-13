@@ -25,11 +25,10 @@ plans/
 # ── Large plugin caches (re-downloadable) ──────────────────
 plugins/marketplaces/
 plugins/cache/
+plugins/install-counts-cache.json
 
-# ── Session logs in projects/ (keep ONLY memory files) ─────
+# ── Project session data (not for sharing) ─────────────────
 projects/
-!projects/**/memory/
-!projects/**/memory/**
 
 # ── Skill heavy dirs (reinstallable) ───────────────────────
 skills/*/vendor/
