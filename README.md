@@ -23,20 +23,21 @@ Claude Code configuration — settings, skills, agents, commands, and custom plu
 1. Install [Claude Code](https://claude.ai/download)
 2. Install [Git](https://git-scm.com/download/win)
 3. Install Python 3.x (for `last30days` skill)
-4. Install Node.js (for `gstack` browser skill)
 
-### Setup
+### One-command setup (from PowerShell)
+
+Close Claude Code first, then run:
 
 ```powershell
-# 1. Back up any existing .claude dir
-Rename-Item "$env:USERPROFILE\.claude" "$env:USERPROFILE\.claude.bak" -ErrorAction SilentlyContinue
-
-# 2. Clone this repo as your .claude dir
-git clone https://github.com/YOUR_USERNAME/claude-dotfiles "$env:USERPROFILE\.claude"
-
-# 3. Install Python deps for last30days skill
-pip install -r "$env:USERPROFILE\.claude\skills\last30days\requirements.txt"
+irm https://raw.githubusercontent.com/digitalthreadai/claude-sync/main/setup.ps1 | iex
 ```
+
+This script backs up any existing `~/.claude`, clones the repo, and installs skill dependencies automatically.
+
+### From inside Claude Code terminal (if already open)
+
+Tell Claude in a new session:
+> "Run the setup script from my dotfiles repo: `irm https://raw.githubusercontent.com/digitalthreadai/claude-sync/main/setup.ps1 | iex` — but warn me to close Claude Code first"
 
 ### Post-install (manual steps)
 1. Set `GITHUB_PERSONAL_ACCESS_TOKEN` as a **system-level** environment variable (for GitHub MCP)
