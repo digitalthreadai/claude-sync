@@ -1,0 +1,38 @@
+{
+  "session_id": "5dd32945-21a6-429b-aa9a-e41e53a7b426",
+  "project_path": "C:\\Apps\\claude\\Homease",
+  "start_time": "2026-03-12T11:49:16.935Z",
+  "duration_minutes": 1,
+  "user_message_count": 1,
+  "assistant_message_count": 27,
+  "tool_counts": {
+    "Glob": 9,
+    "Read": 12
+  },
+  "languages": {
+    "Markdown": 1,
+    "TypeScript": 5
+  },
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 35,
+  "output_tokens": 1854,
+  "first_prompt": "can you please update the siteconfigurations file? since I did not do anything in supabase yet, make sure all instructions are clearly written there to cover all configs",
+  "user_interruptions": 0,
+  "user_response_times": [],
+  "tool_errors": 0,
+  "tool_error_categories": {},
+  "uses_task_agent": false,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    4
+  ],
+  "user_message_timestamps": [
+    "2026-03-12T11:49:16.935Z"
+  ]
+}

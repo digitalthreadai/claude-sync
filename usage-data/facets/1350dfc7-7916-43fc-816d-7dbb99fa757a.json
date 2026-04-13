@@ -1,0 +1,18 @@
+{
+  "underlying_goal": "Set up Paper.design MCP server integration with Claude Code to control and edit designs",
+  "goal_categories": {
+    "tool_integration_setup": 1,
+    "design_manipulation": 1
+  },
+  "outcome": "partially_achieved",
+  "user_satisfaction_counts": {},
+  "claude_helpfulness": "very_helpful",
+  "session_type": "single_task",
+  "friction_counts": {
+    "environment_limitation": 1
+  },
+  "friction_detail": "MCP server config requires session restart, so Claude couldn't verify the setup or add text to the Paper board within the same session.",
+  "primary_success": "proactive_help",
+  "brief_summary": "User wanted Claude to research and set up Paper.design MCP server and add text to their board; Claude completed the config but couldn't test it due to needing a session restart.",
+  "session_id": "1350dfc7-7916-43fc-816d-7dbb99fa757a"
+}

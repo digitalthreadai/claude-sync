@@ -1,0 +1,52 @@
+{
+  "session_id": "c149c7c5-1c7e-41ff-b2fd-2b71943031c0",
+  "project_path": "C:\\Apps\\claude\\PartClassifier",
+  "start_time": "2026-03-12T11:50:16.612Z",
+  "duration_minutes": 38,
+  "user_message_count": 2,
+  "assistant_message_count": 58,
+  "tool_counts": {
+    "Read": 10,
+    "Bash": 4,
+    "Glob": 1,
+    "Agent": 3,
+    "ToolSearch": 2,
+    "AskUserQuestion": 1,
+    "Write": 2,
+    "ExitPlanMode": 1,
+    "Grep": 1,
+    "Edit": 9
+  },
+  "languages": {
+    "Markdown": 4,
+    "Python": 14
+  },
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 92,
+  "output_tokens": 14723,
+  "first_prompt": "continue where you left",
+  "user_interruptions": 0,
+  "user_response_times": [
+    82.285
+  ],
+  "tool_errors": 1,
+  "tool_error_categories": {
+    "File Not Found": 1
+  },
+  "uses_task_agent": true,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 627,
+  "lines_removed": 19,
+  "files_modified": 6,
+  "message_hours": [
+    4,
+    4
+  ],
+  "user_message_timestamps": [
+    "2026-03-12T11:50:16.612Z",
+    "2026-03-12T11:52:15.976Z"
+  ]
+}

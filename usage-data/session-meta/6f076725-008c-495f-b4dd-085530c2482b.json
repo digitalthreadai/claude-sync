@@ -1,0 +1,48 @@
+{
+  "session_id": "6f076725-008c-495f-b4dd-085530c2482b",
+  "project_path": "C:\\apps\\claude\\claudeskillsdirectorysite",
+  "start_time": "2026-03-12T11:49:49.128Z",
+  "duration_minutes": 60,
+  "user_message_count": 3,
+  "assistant_message_count": 37,
+  "tool_counts": {
+    "Bash": 8,
+    "Read": 16,
+    "Agent": 3
+  },
+  "languages": {
+    "TypeScript": 15
+  },
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 44,
+  "output_tokens": 3569,
+  "first_prompt": "shut down dev server",
+  "user_interruptions": 0,
+  "user_response_times": [
+    3397.329,
+    3397.329
+  ],
+  "tool_errors": 2,
+  "tool_error_categories": {
+    "Command Failed": 1,
+    "Other": 1
+  },
+  "uses_task_agent": true,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    4,
+    5,
+    5
+  ],
+  "user_message_timestamps": [
+    "2026-03-12T11:49:49.128Z",
+    "2026-03-12T12:47:22.516Z",
+    "2026-03-12T12:47:22.516Z"
+  ]
+}

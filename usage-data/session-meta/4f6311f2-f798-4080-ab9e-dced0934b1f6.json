@@ -1,0 +1,51 @@
+{
+  "session_id": "4f6311f2-f798-4080-ab9e-dced0934b1f6",
+  "project_path": "C:\\Apps\\claude",
+  "start_time": "2026-03-10T17:45:09.715Z",
+  "duration_minutes": 25,
+  "user_message_count": 5,
+  "assistant_message_count": 19,
+  "tool_counts": {
+    "Bash": 6,
+    "ToolSearch": 1,
+    "TaskOutput": 1
+  },
+  "languages": {},
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 36,
+  "output_tokens": 1630,
+  "first_prompt": "cd \\grodeal",
+  "user_interruptions": 0,
+  "user_response_times": [
+    406.387,
+    55.683,
+    56.554,
+    436.372
+  ],
+  "tool_errors": 2,
+  "tool_error_categories": {
+    "Command Failed": 2
+  },
+  "uses_task_agent": false,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    10,
+    10,
+    10,
+    10,
+    11
+  ],
+  "user_message_timestamps": [
+    "2026-03-10T17:45:09.715Z",
+    "2026-03-10T17:52:44.067Z",
+    "2026-03-10T17:55:43.025Z",
+    "2026-03-10T17:57:42.184Z",
+    "2026-03-10T18:09:04.246Z"
+  ]
+}

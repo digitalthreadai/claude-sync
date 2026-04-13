@@ -1,0 +1,8 @@
+{
+  "name": "threadplm-design",
+  "description": "Design & UI/UX slash commands for ThreadPLM — invokes the installed design-family skills",
+  "version": "1.0.0",
+  "author": {
+    "name": "manba"
+  }
+}

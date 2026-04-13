@@ -1,0 +1,80 @@
+{
+  "session_id": "229260b2-c78f-4638-8c62-599e978b3141",
+  "project_path": "C:\\Apps\\claude",
+  "start_time": "2026-03-04T23:15:54.600Z",
+  "duration_minutes": 90,
+  "user_message_count": 11,
+  "assistant_message_count": 111,
+  "tool_counts": {
+    "Read": 8,
+    "TaskCreate": 6,
+    "TaskUpdate": 12,
+    "Write": 6,
+    "Bash": 20,
+    "Grep": 1,
+    "Edit": 12
+  },
+  "languages": {
+    "Markdown": 1,
+    "HTML": 10,
+    "CSS": 4,
+    "JavaScript": 11
+  },
+  "git_commits": 1,
+  "git_pushes": 0,
+  "input_tokens": 159,
+  "output_tokens": 110993,
+  "first_prompt": "Build an app to compare the kids face with parents faces and rate the similarity and differences of kids facial features. Use opensource APIs wherever possible to build this simple and beautiful app",
+  "user_interruptions": 2,
+  "user_response_times": [
+    1009.832,
+    169.915,
+    197.171,
+    4.521,
+    242.831,
+    6.734,
+    41.052,
+    139.564,
+    407.973,
+    228.676
+  ],
+  "tool_errors": 6,
+  "tool_error_categories": {
+    "File Not Found": 1,
+    "Command Failed": 3,
+    "User Rejected": 2
+  },
+  "uses_task_agent": false,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 3409,
+  "lines_removed": 35,
+  "files_modified": 3,
+  "message_hours": [
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "user_message_timestamps": [
+    "2026-03-04T23:15:54.600Z",
+    "2026-03-04T23:39:09.870Z",
+    "2026-03-05T00:03:14.795Z",
+    "2026-03-05T00:11:05.665Z",
+    "2026-03-05T00:13:17.967Z",
+    "2026-03-05T00:17:16.277Z",
+    "2026-03-05T00:17:38.770Z",
+    "2026-03-05T00:18:13.088Z",
+    "2026-03-05T00:25:26.250Z",
+    "2026-03-05T00:35:57.307Z",
+    "2026-03-05T00:45:44.931Z"
+  ]
+}

@@ -1,0 +1,46 @@
+# ── Sensitive ──────────────────────────────────────────────
+.credentials.json
+*.credentials.json
+mcp-needs-auth-cache.json
+**/.env
+*api_key*
+
+# ── Machine-specific / auto-regenerated ────────────────────
+sessions/
+ide/
+shell-snapshots/
+paste-cache/
+file-history/
+telemetry/
+usage-data/
+debug/
+backups/
+tasks/
+*.json.backup
+history.jsonl
+
+# ── Ephemeral work ──────────────────────────────────────────
+plans/
+
+# ── Large plugin caches (re-downloadable) ──────────────────
+plugins/marketplaces/
+plugins/cache/
+
+# ── Session logs in projects/ (keep ONLY memory files) ─────
+projects/
+!projects/**/memory/
+!projects/**/memory/**
+
+# ── Skill heavy dirs (reinstallable) ───────────────────────
+skills/*/vendor/
+skills/*/node_modules/
+skills/*/.venv/
+skills/*/dist/
+skills/*/__pycache__/
+
+# ── OS / editor ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+cache/
+tmp/

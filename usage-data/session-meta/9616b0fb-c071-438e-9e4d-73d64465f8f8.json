@@ -1,0 +1,37 @@
+{
+  "session_id": "9616b0fb-c071-438e-9e4d-73d64465f8f8",
+  "project_path": "C:\\Apps\\claude\\PartClassifier",
+  "start_time": "2026-03-11T06:42:26.342Z",
+  "duration_minutes": 0,
+  "user_message_count": 1,
+  "assistant_message_count": 4,
+  "tool_counts": {
+    "ToolSearch": 1,
+    "WebFetch": 1
+  },
+  "languages": {},
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 10,
+  "output_tokens": 284,
+  "first_prompt": "You are a mechanical parts data extraction specialist.\r \r TASK: Fetch this specific URL and extract part specifications:\r   URL: https://www.skdin.com/products/productid-1308FA00074\r \r Part Details:…",
+  "user_interruptions": 0,
+  "user_response_times": [],
+  "tool_errors": 1,
+  "tool_error_categories": {
+    "Other": 1
+  },
+  "uses_task_agent": false,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": true,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    23
+  ],
+  "user_message_timestamps": [
+    "2026-03-11T06:42:26.342Z"
+  ]
+}

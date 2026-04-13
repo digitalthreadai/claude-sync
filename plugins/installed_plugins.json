@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "plugins": {
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "C:\\Apps\\claude\\DigitalThreadAICompany",
+        "installPath": "C:\\Users\\manba\\.claude\\plugins\\cache\\claude-plugins-official\\frontend-design\\b36fd4b75301",
+        "version": "b36fd4b75301",
+        "installedAt": "2026-03-12T09:03:53.667Z",
+        "lastUpdated": "2026-03-12T09:03:53.667Z",
+        "gitCommitSha": "b36fd4b753018b0b340803579399992a32e43502"
+      }
+    ]
+  }
+}

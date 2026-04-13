@@ -1,0 +1,49 @@
+{
+  "session_id": "e102d4fd-8664-4014-bbc9-2b775bf2d877",
+  "project_path": "C:\\Apps\\Claude",
+  "start_time": "2026-03-10T08:30:07.748Z",
+  "duration_minutes": 20,
+  "user_message_count": 3,
+  "assistant_message_count": 25,
+  "tool_counts": {
+    "Bash": 1,
+    "Agent": 2,
+    "ToolSearch": 1,
+    "AskUserQuestion": 2,
+    "Read": 5
+  },
+  "languages": {
+    "TypeScript": 4,
+    "JSON": 1
+  },
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 55,
+  "output_tokens": 5985,
+  "first_prompt": "cd C:\\Apps\\claude\\GroDeals",
+  "user_interruptions": 0,
+  "user_response_times": [
+    354.762
+  ],
+  "tool_errors": 1,
+  "tool_error_categories": {
+    "User Rejected": 1
+  },
+  "uses_task_agent": true,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    1,
+    1,
+    1
+  ],
+  "user_message_timestamps": [
+    "2026-03-10T08:30:07.748Z",
+    "2026-03-10T08:36:17.622Z",
+    "2026-03-10T08:44:24.271Z"
+  ]
+}

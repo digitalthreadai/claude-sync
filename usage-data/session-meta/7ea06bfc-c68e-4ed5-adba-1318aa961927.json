@@ -1,0 +1,64 @@
+{
+  "session_id": "7ea06bfc-c68e-4ed5-adba-1318aa961927",
+  "project_path": "C:\\Apps\\claude",
+  "start_time": "2026-03-10T19:01:41.651Z",
+  "duration_minutes": 899,
+  "user_message_count": 12,
+  "assistant_message_count": 50,
+  "tool_counts": {
+    "Bash": 24
+  },
+  "languages": {},
+  "git_commits": 0,
+  "git_pushes": 0,
+  "input_tokens": 88,
+  "output_tokens": 5964,
+  "first_prompt": "cd C:\\Apps\\Claude\\resemble",
+  "user_interruptions": 0,
+  "user_response_times": [
+    131.545,
+    572.214,
+    178.899,
+    1255.192,
+    26.074
+  ],
+  "tool_errors": 1,
+  "tool_error_categories": {
+    "Command Failed": 1
+  },
+  "uses_task_agent": false,
+  "uses_mcp": false,
+  "uses_web_search": false,
+  "uses_web_fetch": false,
+  "lines_added": 0,
+  "lines_removed": 0,
+  "files_modified": 0,
+  "message_hours": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "user_message_timestamps": [
+    "2026-03-10T19:01:41.651Z",
+    "2026-03-10T19:04:01.667Z",
+    "2026-03-10T19:10:22.475Z",
+    "2026-03-10T19:10:22.475Z",
+    "2026-03-10T19:10:22.475Z",
+    "2026-03-10T19:12:12.311Z",
+    "2026-03-10T19:21:46.605Z",
+    "2026-03-11T09:33:37.540Z",
+    "2026-03-11T09:37:07.638Z",
+    "2026-03-11T09:38:49.567Z",
+    "2026-03-11T09:59:47.510Z",
+    "2026-03-11T10:00:22.330Z"
+  ]
+}

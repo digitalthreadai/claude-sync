@@ -1,0 +1,55 @@
+{
+  "note": "Source info for installed skills. Used to update or reinstall on a new machine.",
+
+  "git_cloned": [
+    {
+      "name": "gstack",
+      "repo": "https://github.com/garrytan/gstack.git",
+      "install_path": "skills/gstack",
+      "note": "Bundle repo — contains browse, gstack-upgrade, plan-ceo-review, plan-eng-review, qa, retro, review, setup-browser-cookies, ship as sub-dirs. On new machine: clone this one repo only; skip standalone copies of those 9."
+    },
+    {
+      "name": "last30days",
+      "repo": "https://github.com/mvanhorn/last30days-skill.git",
+      "install_path": "skills/last30days",
+      "post_install": "pip install -r requirements.txt"
+    },
+    {
+      "name": "codebase-to-course",
+      "repo": "https://github.com/zarazhangrui/codebase-to-course.git",
+      "install_path": "skills/codebase-to-course"
+    },
+    {
+      "name": "napkin",
+      "repo": "https://github.com/blader/napkin.git",
+      "install_path": "skills/napkin"
+    }
+  ],
+
+  "claudekit_skills": {
+    "note": "Author: claudekit (ckm: prefix), MIT licensed. Source URL unknown (copied from another laptop). Files tracked in this repo.",
+    "skills": ["banner-design", "brand", "design", "design-system", "slides", "ui-styling"]
+  },
+
+  "gstack_standalone_copies": {
+    "note": "Standalone copies of skills already inside skills/gstack/ bundle. Kept for compatibility. On new machine, these come free when cloning gstack.",
+    "skills": ["browse", "gstack-upgrade", "plan-ceo-review", "plan-eng-review", "qa", "retro", "review", "setup-browser-cookies", "ship"]
+  },
+
+  "user_created": {
+    "note": "Created by user — not from any public repo.",
+    "skills": ["founder-guide"]
+  },
+
+  "third_party_no_git_source": {
+    "note": "Known author but no git history on this machine. Files tracked in this repo.",
+    "skills": [
+      { "name": "vibe-security", "author": "Chris Raroque", "license": "MIT" }
+    ]
+  },
+
+  "unknown_source": {
+    "note": "No author metadata, no git history. Likely Claude Code built-ins or copied from another laptop. Files tracked in this repo.",
+    "skills": ["code-simplifier", "commit-push-pr", "get-api-docs", "push", "techdebt", "test-report", "ui-ux-pro-max"]
+  }
+}
