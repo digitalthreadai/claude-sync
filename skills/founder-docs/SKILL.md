@@ -1,5 +1,5 @@
 ---
-name: founder-guide
+name: founder-docs
 description: |
   Generate a comprehensive Founder Guide — a full documentation suite for any web project. Creates three markdown docs (strategy document, setup/configuration guide, README) and modern dark-themed HTML landing pages for each, plus a hub page linking them all. Use this skill whenever the user asks to "document this project", "create project docs", "generate founder guide", "create setup guide", "make documentation", "create HTML docs for this project", "generate README and docs", or wants professional documentation for their codebase. Also trigger when the user mentions strategy docs, site configurations, project overview pages, documentation landing pages, or "founder guide". Trigger even when the user simply says "document everything" or "create docs for this app".
 ---
