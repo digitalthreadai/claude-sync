@@ -17,8 +17,10 @@ Every HTML file starts with this CSS custom properties block. Replace `--primary
   --muted: #8888A0;
   --muted-fg: #6E6E88;
   --primary: #FFD600;       /* Main accent — customize per project */
+  --primary-rgb: 255, 214, 0;  /* rgba() companion — update when changing --primary */
   --primary-light: #FFFDE7;
   --secondary: #E87040;     /* Secondary accent — customize per project */
+  --secondary-rgb: 232, 112, 64; /* rgba() companion — update when changing --secondary */
   --green: #4ADE80;
   --blue: #60A5FA;
   --purple: #A78BFA;
@@ -48,6 +50,10 @@ code, pre, .mono { font-family: 'JetBrains Mono', monospace; }
 ---
 
 ## Components
+
+---
+
+#### Layout & Typography
 
 ### 1. Gradient Text
 
@@ -79,6 +85,10 @@ section { padding: 5rem 1.5rem; max-width: 1200px; margin: 0 auto; }
 .section-title { font-size: clamp(1.75rem, 3vw, 2.5rem); font-weight: 800; margin-bottom: 0.5rem; }
 .section-desc { color: var(--muted); font-size: 1rem; margin-bottom: 3rem; max-width: 600px; }
 ```
+
+---
+
+#### Code & Terminal
 
 ### 3. Terminal / Code Block
 
@@ -139,6 +149,10 @@ function copyCode(btn) {
 }
 ```
 
+---
+
+#### UI Components
+
 ### 5. Card Grid
 
 ```css
@@ -158,7 +172,7 @@ function copyCode(btn) {
 .card p { font-size: 0.85rem; color: var(--muted); }
 ```
 
-### 6. Sidebar Navigation (for COO.html and SITECONFIGURATIONS.html)
+### 6. Sidebar Navigation (for strategy.html and setup.html)
 
 ```css
 .sidebar {
@@ -195,6 +209,10 @@ window.addEventListener('scroll', () => {
   });
 });
 ```
+
+---
+
+#### Interactive Components
 
 ### 8. Accordion
 
@@ -321,6 +339,10 @@ function updateProgress() {
 .check-item.checked .check-box { background: var(--primary); border-color: var(--primary); }
 .check-item.checked .check-box::after { content: '\2713'; color: #000; font-size: 0.7rem; font-weight: 700; }
 ```
+
+---
+
+#### Styling & Utilities
 
 ### 12. Syntax Highlighting Classes (for SQL/code)
 

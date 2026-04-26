@@ -1,7 +1,7 @@
 ---
 name: founder-guide
 description: |
-  Generate a comprehensive Founder Guide — a full documentation suite for any web project. Creates three markdown docs (COO/strategy document, setup/configuration guide, README) and modern dark-themed HTML landing pages for each, plus a hub page linking them all. Use this skill whenever the user asks to "document this project", "create project docs", "generate founder guide", "create setup guide", "make documentation", "create HTML docs for this project", "generate README and docs", or wants professional documentation for their codebase. Also trigger when the user mentions COO docs, site configurations, project overview pages, documentation landing pages, or "founder guide". Trigger even when the user simply says "document everything" or "create docs for this app".
+  Generate a comprehensive Founder Guide — a full documentation suite for any web project. Creates three markdown docs (strategy document, setup/configuration guide, README) and modern dark-themed HTML landing pages for each, plus a hub page linking them all. Use this skill whenever the user asks to "document this project", "create project docs", "generate founder guide", "create setup guide", "make documentation", "create HTML docs for this project", "generate README and docs", or wants professional documentation for their codebase. Also trigger when the user mentions strategy docs, site configurations, project overview pages, documentation landing pages, or "founder guide". Trigger even when the user simply says "document everything" or "create docs for this app".
 ---
 
 # App Founder Guide
@@ -12,13 +12,13 @@ Generate a complete documentation suite for any web project: strategy docs, setu
 
 | File | Purpose |
 |------|---------|
-| `COO.md` | Strategy & feature guide — vision, features, schema, tech stack, roadmap, file structure |
-| `SITECONFIGURATIONS.md` | Step-by-step setup guide — every service, env var, SQL, deployment, checklist |
+| `strategy.md` | Strategy & feature guide — vision, features, schema, tech stack, roadmap, file structure |
+| `setup.md` | Step-by-step setup guide — every service, env var, SQL, deployment, checklist |
 | `README.md` | Project overview — stack, features, quick start, structure, scripts |
 | `docs/index.html` | Documentation hub — links to all HTML pages |
 | `docs/README.html` | Project overview landing page — hero, terminal, stack grid, features |
-| `docs/COO.html` | Strategy dashboard — sidebar nav, revenue cards, feature accordion, timeline |
-| `docs/SITECONFIGURATIONS.html` | Interactive setup guide — numbered steps, copy buttons, checklist |
+| `docs/strategy.html` | Strategy dashboard — sidebar nav, revenue cards, feature accordion, timeline |
+| `docs/setup.html` | Interactive setup guide — numbered steps, copy buttons, checklist |
 
 ---
 
@@ -75,7 +75,7 @@ Organize findings into these categories (used as input for all docs):
 
 ## Phase 2: Generate Markdown Documentation
 
-### A. COO.md — Strategy & Feature Guide
+### A. strategy.md — Strategy & Feature Guide
 
 Use this structure. Adapt sections based on what's relevant to the project. Skip sections that don't apply (e.g., skip "Revenue Streams" for open-source tools with no monetization).
 
@@ -133,7 +133,7 @@ Use this structure. Adapt sections based on what's relevant to the project. Skip
 [Full tree with comments for key files]
 ```
 
-### B. SITECONFIGURATIONS.md — Setup Guide
+### B. setup.md — Setup Guide
 
 ```markdown
 # Site Configuration Guide — [Project Name]
@@ -216,10 +216,10 @@ SELECT ...
 ```
 
 ## Setup Guide
-See **[SITECONFIGURATIONS.md](./SITECONFIGURATIONS.md)** for complete setup.
+See **[setup.md](./setup.md)** for complete setup.
 
 ## Strategy & Features
-See **[COO.md](./COO.md)** for full strategy document.
+See **[strategy.md](./strategy.md)** for full strategy document.
 
 ## Database
 | Table | Purpose |
@@ -268,7 +268,7 @@ Replace `--primary` and `--secondary` with the project's actual brand colors if 
 
 A simple landing page with cards linking to all 3 doc pages:
 - Project name as hero title with gradient text
-- 3 cards in a grid: README (overview), COO (strategy), SITECONFIGURATIONS (setup)
+- 3 cards in a grid: README (overview), strategy (strategy), setup (setup)
 - Each card: icon, title, description, "Open →" link
 - Same dark theme as other pages
 
@@ -283,7 +283,7 @@ Sections (refer to `references/html-patterns.md` for components):
 6. **Structure** — Collapsible file tree
 7. **Footer** — Links to other docs
 
-### C. `docs/COO.html` — Strategy Dashboard
+### C. `docs/strategy.html` — Strategy Dashboard
 
 Layout: Fixed 260px sidebar + main content area
 1. **Sidebar** — Logo, nav sections with scroll spy, footer links
@@ -297,7 +297,7 @@ Layout: Fixed 260px sidebar + main content area
 9. **Roadmap** — Horizontal timeline (if applicable)
 10. **File Structure** — Collapsible tree
 
-### D. `docs/SITECONFIGURATIONS.html` — Interactive Setup Guide
+### D. `docs/setup.html` — Interactive Setup Guide
 
 Layout: Fixed 260px sidebar + main content area
 1. **Sidebar** — Logo, time estimate, progress bar, numbered step links, footer

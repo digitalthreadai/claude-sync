@@ -4,7 +4,7 @@ Use these as structural guides when generating the 3 markdown files. Replace `[p
 
 ---
 
-## COO.md Template
+## strategy.md Template
 
 ```markdown
 # Strategy & Feature Guide — [Project Name]
@@ -116,7 +116,7 @@ src/
 
 ---
 
-## SITECONFIGURATIONS.md Template
+## setup.md Template
 
 ```markdown
 # Site Configuration Guide — [Project Name]
