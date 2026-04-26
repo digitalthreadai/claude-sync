@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>founder-docs — your project, documented.</title>
+  <meta name="description" content="A Claude Code skill that explores your codebase and generates a complete documentation suite — strategy guide, setup walkthrough, README, and 4 dark-themed HTML pages — in one run." />
+
+  <meta property="og:title" content="founder-docs — your project, documented." />
+  <meta property="og:description" content="One command. Seven files. Strategy doc, setup guide, README, and 4 dark HTML pages — all accurate to your actual codebase." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Ambient gradient background -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient-orb ambient-orb--amber"></div>
+    <div class="ambient-orb ambient-orb--orange"></div>
+  </div>
+
+  <!-- Top nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">
+        <span class="nav-mark">founder-docs</span>
+      </a>
+      <div class="nav-links">
+        <a href="#output">What it makes</a>
+        <a href="#how">How it works</a>
+        <a href="#install">Install</a>
+        <a class="nav-cta" href="https://github.com/digitalthreadai/claude-sync/tree/main/skills/founder-docs" target="_blank" rel="noopener">GitHub →</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">A Claude Code skill</p>
+      <h1 class="hero-title">
+        Your project,<br />
+        <span class="grad">documented.</span>
+      </h1>
+      <p class="hero-sub">
+        <code class="inline">founder-docs</code> explores your codebase and generates a complete
+        documentation suite — strategy guide, setup walkthrough, README, and 4 dark-themed
+        HTML pages — all accurate to your actual code. One command. Done.
+      </p>
+      <div class="hero-cta">
+        <a href="#install" class="btn btn-primary">Install</a>
+        <a href="#output" class="btn btn-ghost">See what it makes</a>
+      </div>
+      <p class="hero-meta">
+        Works with any web project · Next.js · React · Express · FastAPI · MIT licensed
+      </p>
+    </div>
+  </header>
+
+  <!-- Output demo card -->
+  <section class="section section--narrow" id="output">
+    <div class="output-card glass">
+      <div class="output-col output-col--before">
+        <div class="output-label">
+          <span class="dot dot--muted"></span> your codebase
+        </div>
+        <pre class="output-text">my-app/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── dashboard/
+│   │   └── api/
+│   ├── components/
+│   ├── lib/
+│   └── hooks/
+├── supabase/
+│   └── migrations/
+├── package.json
+└── .env.example</pre>
+      </div>
+      <div class="output-divider" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M5 12h14M13 5l7 7-7 7"/>
+        </svg>
+      </div>
+      <div class="output-col output-col--after">
+        <div class="output-label">
+          <span class="dot dot--amber"></span> 7 files generated
+        </div>
+        <pre class="output-text"><span class="out-md">strategy.md</span>       <span class="out-dim"># vision, features, schema, stack</span>
+<span class="out-md">setup.md</span>          <span class="out-dim"># env vars, SQL, deployment checklist</span>
+<span class="out-md">README.md</span>         <span class="out-dim"># quick start, scripts, structure</span>
+
+docs/
+  <span class="out-html">index.html</span>      <span class="out-dim"># documentation hub</span>
+  <span class="out-html">README.html</span>     <span class="out-dim"># project overview landing page</span>
+  <span class="out-html">strategy.html</span>   <span class="out-dim"># strategy dashboard + sidebar nav</span>
+  <span class="out-html">setup.html</span>      <span class="out-dim"># interactive setup guide</span></pre>
+      </div>
+    </div>
+    <p class="caption">Discovered from your actual codebase. Nothing fabricated.</p>
+  </section>
+
+  <!-- What gets generated -->
+  <section class="section" id="files">
+    <div class="section-head">
+      <p class="eyebrow">The output</p>
+      <h2 class="section-title">Three markdown docs. Four HTML pages.</h2>
+      <p class="section-sub">
+        Every file is accurate to your codebase — dependencies, routes, tables, env vars — pulled
+        from a thorough discovery phase before a single line is written.
+      </p>
+    </div>
+
+    <div class="files-grid">
+      <article class="file-card glass">
+        <div class="file-card-tag file-card-tag--md">MD</div>
+        <h3 class="file-card-name">strategy.md</h3>
+        <p class="file-card-desc">Vision, competitive landscape, revenue streams, feature map, database schema, tech stack, roadmap, and file structure. The document you'd hand a new co-founder.</p>
+      </article>
+
+      <article class="file-card glass">
+        <div class="file-card-tag file-card-tag--md">MD</div>
+        <h3 class="file-card-name">setup.md</h3>
+        <p class="file-card-desc">Step-by-step service configuration, every environment variable explained, seed SQL, deployment instructions, and a persistent checklist. Your new-laptop bible.</p>
+      </article>
+
+      <article class="file-card glass">
+        <div class="file-card-tag file-card-tag--md">MD</div>
+        <h3 class="file-card-name">README.md</h3>
+        <p class="file-card-desc">Stack overview, feature summary, quick-start commands, database table index, and project structure. What GitHub shows first.</p>
+      </article>
+
+      <article class="file-card glass">
+        <div class="file-card-tag file-card-tag--html">HTML</div>
+        <h3 class="file-card-name">docs/index.html</h3>
+        <p class="file-card-desc">A dark-themed hub page linking all three doc pages. Open it locally or deploy alongside your project.</p>
+      </article>
+
+      <article class="file-card glass">
+        <div class="file-card-tag file-card-tag--html">HTML</div>
+        <h3 class="file-card-name">docs/README.html</h3>
+        <p class="file-card-desc">Full-viewport hero, terminal quick-start mockup, dependency card grid, feature groups, collapsible file tree.</p>
+      </article>
+
+      <article class="file-card glass file-card--featured">
+        <div class="file-card-tag file-card-tag--html">HTML</div>
+        <h3 class="file-card-name">docs/strategy.html</h3>
+        <p class="file-card-desc">Fixed sidebar with scroll spy, revenue cards, feature accordion, database schema with type badges, horizontal roadmap timeline.</p>
+      </article>
+
+      <article class="file-card glass file-card--featured">
+        <div class="file-card-tag file-card-tag--html">HTML</div>
+        <h3 class="file-card-name">docs/setup.html</h3>
+        <p class="file-card-desc">Numbered step sections, collapsible code blocks with copy buttons, env var table, schema reference, and a localStorage-persisted checklist with progress bar.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section" id="how">
+    <div class="section-head">
+      <p class="eyebrow">How it works</p>
+      <h2 class="section-title">Three phases. One run.</h2>
+      <p class="section-sub">
+        founder-docs doesn't ask questions or make assumptions. It reads your codebase, then writes.
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step glass">
+        <div class="step-num">01</div>
+        <h3>Discover</h3>
+        <pre class="step-code">Reads package.json, schema files,
+env examples, route files,
+config files, and components.
+Builds a complete picture first.</pre>
+        <p>Routes, tables, env vars, dependencies, brand colors — all extracted before writing a single word.</p>
+      </div>
+
+      <div class="step glass">
+        <div class="step-num">02</div>
+        <h3>Write</h3>
+        <pre class="step-code">Generates strategy.md,
+setup.md, and README.md
+from the discovered data.
+Skips irrelevant sections.</pre>
+        <p>Templates adapt to what exists. No revenue section if there's no monetization. No roadmap if none found.</p>
+      </div>
+
+      <div class="step glass">
+        <div class="step-num">03</div>
+        <h3>Publish</h3>
+        <pre class="step-code">Generates 4 self-contained
+HTML pages in docs/.
+No build step. No dependencies.
+Open and ship.</pre>
+        <p>Dark-themed, mobile-responsive, interactive. Brand colors applied if detectable from your CSS/theme config.</p>
+      </div>
+    </div>
+
+    <details class="accordion glass">
+      <summary>
+        <span>What does discovery actually read?</span>
+        <span class="accordion-icon">+</span>
+      </summary>
+      <div class="accordion-body">
+        <p>
+          <strong>Package metadata:</strong> <code class="inline">package.json</code>, <code class="inline">requirements.txt</code>, <code class="inline">Cargo.toml</code> — all deps with versions.
+        </p>
+        <p>
+          <strong>Routes and pages:</strong> <code class="inline">src/app/**/page.tsx</code>, <code class="inline">pages/**/*.tsx</code>, <code class="inline">routes/**/*</code> — grouped public / admin / API.
+        </p>
+        <p>
+          <strong>Database:</strong> <code class="inline">prisma/schema.prisma</code>, <code class="inline">supabase/migrations/*</code>, <code class="inline">drizzle/**/*</code> — tables, columns, relationships.
+        </p>
+        <p>
+          <strong>Environment:</strong> <code class="inline">.env.example</code>, <code class="inline">.env.local.example</code> — every variable with its description.
+        </p>
+        <p>
+          <strong>Config and auth:</strong> <code class="inline">next.config.*</code>, <code class="inline">tailwind.config.*</code>, <code class="inline">vercel.json</code> — deployment target, auth provider, brand colors.
+        </p>
+      </div>
+    </details>
+  </section>
+
+  <!-- Install -->
+  <section class="section section--narrow" id="install">
+    <div class="section-head">
+      <p class="eyebrow">Install</p>
+      <h2 class="section-title">One line.</h2>
+    </div>
+
+    <div class="install glass">
+      <pre id="install-cmd">git clone https://github.com/digitalthreadai/claude-sync.git /tmp/cs && cp -r /tmp/cs/skills/founder-docs ~/.claude/skills/</pre>
+      <button class="copy-btn" data-target="install-cmd" aria-label="Copy install command">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7">
+          <rect x="9" y="9" width="11" height="11" rx="2"/>
+          <path d="M5 15V5a2 2 0 012-2h10"/>
+        </svg>
+        <span class="copy-btn-text">Copy</span>
+      </button>
+    </div>
+    <p class="caption">Then restart Claude Code and run: <code class="inline">use founder-docs</code> from any project directory.</p>
+  </section>
+
+  <!-- Closing -->
+  <section class="section section--narrow closing">
+    <div class="closing-inner">
+      <p class="closing-eyebrow">The real value</p>
+      <p class="closing-body">
+        Most projects are underdocumented — not because founders are lazy, but because writing docs
+        while building is a context switch that never happens. <code class="inline">founder-docs</code>
+        makes it a 60-second step instead of a 3-hour project.
+      </p>
+      <p class="closing-body">
+        Run it before you onboard your first contributor, before you raise a round, before you step away for a week.
+        The docs are always current because they're always generated fresh.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <p class="footer-brand">founder-docs</p>
+        <p class="footer-tag">A Claude Code skill.</p>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Project</p>
+        <a href="https://github.com/digitalthreadai/claude-sync/tree/main/skills/founder-docs" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/digitalthreadai/claude-sync/blob/main/skills/founder-docs/README.md" target="_blank" rel="noopener">README</a>
+        <a href="https://github.com/digitalthreadai/claude-sync/blob/main/skills/founder-docs/LICENSE" target="_blank" rel="noopener">MIT License</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Output</p>
+        <a href="#output">What it generates</a>
+        <a href="#how">How it works</a>
+        <a href="#install">Install</a>
+      </div>
+      <div class="footer-col">
+        <p class="footer-head">Built by</p>
+        <p class="footer-fine">
+          digitalthreadai · built with Claude Code · MIT licensed · open to contributions.
+        </p>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 · MIT · Made for founders.</p>
+  </footer>
+
+  <script>
+    // Copy-to-clipboard
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const targetId = btn.dataset.target;
+        const text = document.getElementById(targetId)?.innerText ?? '';
+        try {
+          await navigator.clipboard.writeText(text);
+          const label = btn.querySelector('.copy-btn-text');
+          if (label) {
+            const original = label.textContent;
+            label.textContent = 'Copied';
+            btn.classList.add('is-copied');
+            setTimeout(() => {
+              label.textContent = original;
+              btn.classList.remove('is-copied');
+            }, 1500);
+          }
+        } catch (err) {
+          console.error('Copy failed', err);
+        }
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach((a) => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href').slice(1);
+        const target = document.getElementById(id);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

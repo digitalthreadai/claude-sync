@@ -240,7 +240,7 @@ See **[strategy.md](./strategy.md)** for full strategy document.
 
 ## Phase 3: Generate HTML Landing Pages
 
-Read `references/html-patterns.md` for the complete HTML component library. That file contains all reusable CSS, JavaScript, and HTML patterns.
+Read `references/design.md` for the complete design system — HTML component library (Parts 1–2) and markdown document templates (Part 3).
 
 ### Color Customization
 
